@@ -197,7 +197,7 @@
 <div class="step">
 <div class="top"><i class="ic" style="--u:url(assets/icons/file-text.svg)"></i><span class="n">02</span></div>
 <h3>Te cotizamos</h3>
-<p>En menos de 24 horas recibes 2 o 3 opciones con el precio cerrado y lo que incluye cada una.</p>
+<p>En menos de 48 horas recibes 2 o 3 opciones con el precio cerrado y lo que incluye cada una.</p>
 </div>
 <div class="step">
 <div class="top"><i class="ic" style="--u:url(assets/icons/calendar-check.svg)"></i><span class="n">03</span></div>
@@ -405,20 +405,20 @@
 <header class="sec-head">
 <span class="eyebrow">Cotización sin compromiso</span>
 <h2 class="sec-title">Cuéntanos para cuándo, y lo armamos</h2>
-<p class="sec-sub">Te respondemos en menos de 24 horas con dos o tres opciones y el precio cerrado.</p>
+<p class="sec-sub">Te respondemos en menos de 48 horas con dos o tres opciones y el precio cerrado.</p>
 </header>
 <ul class="reasons">
-<li><i class="ic" style="--u:url(assets/icons/message-circle.svg)"></i>Si prefieres, escríbenos directo por WhatsApp — es más rápido.</li>
+<li><i class="ic" style="--u:url(assets/icons/message-circle.svg)"></i>Si prefieres, escríbenos directo por WhatsApp al +598 97 455 900 — es más rápido.</li>
 <li><i class="ic" style="--u:url(assets/icons/shield-check.svg)"></i>No compartimos tus datos ni te agregamos a listas de correo.</li>
 <li><i class="ic" style="--u:url(assets/icons/percent.svg)"></i>Cotizar no te compromete a nada ni cambia el precio.</li>
 </ul>
-<a class="btn btn-secondary btn-lg" href="#cotizar" style="align-self:flex-start"><i class="ic" style="--u:url(assets/icons/message-circle.svg);--s:20px"></i>Escribir por WhatsApp</a>
+<a class="btn btn-secondary btn-lg" href="https://wa.me/59897455900?text=Hola!%20Quiero%20cotizar%20mi%20viaje%20a%20Orlando" style="align-self:flex-start"><i class="ic" style="--u:url(assets/icons/message-circle.svg);--s:20px"></i>Escribir por WhatsApp</a>
 </div>
 
 <div class="card card-lg card-paper" style="padding:var(--space-6)">
 <div class="alert alert-ok" id="form-ok" hidden>
 <i class="ic" style="--u:url(assets/icons/circle-check.svg)"></i>
-<div><b>¡Recibimos tu solicitud!</b><p>Te escribimos por WhatsApp en menos de 24 horas con las opciones para tus fechas.</p></div>
+<div><b>¡Recibimos tu solicitud!</b><p>Te escribimos en menos de 48 horas con las opciones para tus fechas.</p></div>
 </div>
 <form class="form" id="quote-form">
 <div class="field">
@@ -426,9 +426,21 @@
 <input id="f-nombre" name="nombre" type="text" placeholder="Nombre y apellido" required>
 </div>
 <div class="field">
+<label>¿Por dónde te contactamos?</label>
+<div class="tags" id="via">
+<button class="tag" type="button" data-via="wa" aria-pressed="true">WhatsApp</button>
+<button class="tag" type="button" data-via="mail" aria-pressed="false">Correo electrónico</button>
+</div>
+</div>
+<div class="field" id="field-wa">
 <label for="f-wa">WhatsApp</label>
 <input id="f-wa" name="whatsapp" type="tel" placeholder="+598 00 000 000" required>
 <span class="help">Es por donde te enviamos la cotización.</span>
+</div>
+<div class="field" id="field-mail" hidden>
+<label for="f-mail">Correo electrónico</label>
+<input id="f-mail" name="email" type="email" placeholder="tunombre@correo.com" disabled>
+<span class="help">Te enviamos el presupuesto por correo.</span>
 </div>
 <div class="g2" style="gap:14px">
 <div class="field">
@@ -465,7 +477,6 @@
 </div>
 </div>
 <label class="check"><input type="checkbox" name="ninos"><span><b>Viajamos con niños</b><span>Nos ayuda a ajustar los horarios y las atracciones por altura.</span></span></label>
-<label class="check"><input type="checkbox" name="tips" checked><span><b>Quiero recibir los tips de Orlando</b><span>Un correo al mes, sin promociones.</span></span></label>
 <button class="btn btn-primary btn-lg btn-full" type="submit">Pedir mi cotización<i class="ic" style="--u:url(assets/icons/arrow-right.svg);--s:20px"></i></button>
 </form>
 </div>
@@ -485,11 +496,11 @@
 <span class="name" style="font-family:var(--font-display);font-size:24px;font-weight:800;letter-spacing:var(--ls-display);color:var(--cream-100)">Orlando</span>
 </span>
 </div>
-<p>Armamos viajes completos a Orlando: vuelos, hotel, tickets, traslados y un itinerario día por día.</p>
+<p>Armamos viajes completos: vuelos, hotel, tickets, traslados, actividades, alquiler de vehículo, y un itinerario día por día.</p>
 <div class="contact">
-<a href="#cotizar"><i class="ic" style="--u:url(assets/icons/message-circle.svg)"></i>WhatsApp · +00 000 000 0000</a>
-<a href="mailto:hola@boardingaorlando.com"><i class="ic" style="--u:url(assets/icons/mail.svg)"></i>hola@boardingaorlando.com</a>
-<a href="#cotizar"><i class="ic" style="--u:url(assets/icons/map-pin.svg)"></i>Ciudad pendiente de confirmar</a>
+<a href="https://wa.me/59897455900"><i class="ic" style="--u:url(assets/icons/message-circle.svg)"></i>WhatsApp · +598 97 455 900</a>
+<a href="mailto:boardingaorlando@gmail.com"><i class="ic" style="--u:url(assets/icons/mail.svg)"></i>boardingaorlando@gmail.com</a>
+<span class="line"><i class="ic" style="--u:url(assets/icons/map-pin.svg)"></i>Montevideo, Uruguay</span>
 </div>
 </div>
 <div class="g3" style="gap:24px">
@@ -517,11 +528,11 @@
 </div>
 </div>
 <div class="legal">
-<span>© 2026 Boarding a Orlando · No afiliado a The Walt Disney Company ni a Universal</span>
+<span>© 2026 Boarding a Orlando · Agentes Oficiales — Certificados por Disney y Universal</span>
 <span class="social">
 <a href="#top" aria-label="Instagram"><i class="ic" style="--u:url(assets/icons/camera.svg)"></i></a>
 <a href="#top" aria-label="TikTok"><i class="ic" style="--u:url(assets/icons/video.svg)"></i></a>
-<a href="#top" aria-label="WhatsApp"><i class="ic" style="--u:url(assets/icons/smartphone.svg)"></i></a>
+<a href="https://wa.me/59897455900" aria-label="WhatsApp"><i class="ic" style="--u:url(assets/icons/smartphone.svg)"></i></a>
 </span>
 </div>
 </div>
@@ -539,6 +550,15 @@ var open=drawer.hidden;drawer.hidden=!open;burger.setAttribute('aria-expanded',S
 burger.querySelector('.ic').style.setProperty('--u','url(assets/icons/'+(open?'x':'grid-3x3')+'.svg)');
 });
 drawer.addEventListener('click',function(e){if(e.target.tagName==='A'){drawer.hidden=true;burger.setAttribute('aria-expanded','false');burger.querySelector('.ic').style.setProperty('--u','url(assets/icons/grid-3x3.svg)');}});
+var fWa=document.getElementById('field-wa'),fMail=document.getElementById('field-mail');
+document.getElementById('via').addEventListener('click',function(e){
+var t=e.target.closest('.tag');if(!t)return;
+var wa=t.dataset.via==='wa';
+this.querySelectorAll('.tag').forEach(function(b){b.setAttribute('aria-pressed',String(b===t));});
+fWa.hidden=!wa;fMail.hidden=wa;
+fWa.querySelector('input').disabled=!wa;fWa.querySelector('input').required=wa;
+fMail.querySelector('input').disabled=wa;fMail.querySelector('input').required=!wa;
+});
 document.getElementById('parks').addEventListener('click',function(e){
 var t=e.target.closest('.tag');if(!t)return;
 t.setAttribute('aria-pressed',t.getAttribute('aria-pressed')==='true'?'false':'true');

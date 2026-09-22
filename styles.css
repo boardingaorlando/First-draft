@@ -60,6 +60,7 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:var(--fw-black);line-hei
 p{margin:0;text-wrap:pretty}
 ul{margin:0;padding:0;list-style:none}
 img{max-width:100%;display:block}
+[hidden]{display:none!important}
 a{color:var(--text-link);text-decoration:none;font-weight:var(--fw-bold)}
 a:hover{color:var(--text-link-hover);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
 :focus-visible{outline:none;box-shadow:var(--ring-focus)}
@@ -140,7 +141,6 @@ section[id]{scroll-margin-top:70px}
 .nav a:hover{color:var(--amber-300);text-decoration:none}
 .burger{flex:0 0 auto;width:44px;height:44px;border-radius:var(--radius-pill);border:2px solid rgba(253,245,231,.28);background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--cream-100)}
 .drawer{border-top:1px solid rgba(253,245,231,.12);padding:12px 20px 20px;display:flex;flex-direction:column;gap:4px}
-.drawer[hidden]{display:none}
 .drawer a{font-size:var(--text-lg);font-weight:var(--fw-bold);color:var(--cream-200);padding:12px 0;border-bottom:1px solid rgba(253,245,231,.08)}
 .drawer .btn{margin-top:12px}
 
@@ -274,7 +274,7 @@ section[id]{scroll-margin-top:70px}
 .site-footer .lock img{width:64px;height:64px;border-radius:50%}
 .site-footer p{font-size:var(--text-sm);color:var(--text-inverse-muted);max-width:340px}
 .contact{display:flex;flex-direction:column;gap:8px}
-.contact a{display:flex;align-items:center;gap:9px;font-size:var(--text-sm);font-weight:var(--fw-bold);color:var(--cream-200)}
+.contact a,.contact .line{display:flex;align-items:center;gap:9px;font-size:var(--text-sm);font-weight:var(--fw-bold);color:var(--cream-200)}
 .contact a:hover{color:var(--amber-300);text-decoration:none}
 .contact .ic{--s:16px;color:var(--amber-300)}
 .fcol{display:flex;flex-direction:column;gap:9px}
